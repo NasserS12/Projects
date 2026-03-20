@@ -59,7 +59,7 @@ def inside_poem2_Nature():
     win2.resizable(False,False)
     win2.title("Nature ")
     win2.config(bg="gray")
-    lab1 = Label(win2,text=(" 🌿 The Beauty of Nature 🌿"),font=('arial,',14),bg='white',fg="#274460")
+    lab1 = Label(win2,text=(" 🌿 The Beauty of Nature 🌿"),font=('arial',14),bg='white',fg="#274460")
     lab1.place(x=320,y=20)
     text = load_text("Texts/Poems/nature.txt")
     lab2 = Label(win2,text=text,font=("arial",14),fg="#274460")
