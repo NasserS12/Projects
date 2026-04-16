@@ -2,14 +2,14 @@
 
 A lightweight Python utility to display real-time system health metrics on Ubuntu.
 
-## 🚀 Features
+##  Features
 * **Live CPU Tracking**: Monitor overall processor load.
 * **Memory Analysis**: Tracks both Physical RAM and Swap usage.
 * **Storage Watch**: View free disk space in GB.
 * **Top Process**: Automatically finds the most memory-intensive app.
 * **Network Traffic**: Displays network data sent and received in MB.
 
-## 🛠️ Requirements
+##  Requirements
 * Python 3.x
 * `psutil`(External Library)
 * `shutil` (Built-in)
