@@ -43,11 +43,11 @@ def get_detailed_report():
 def display_detailed_report(data):
     """Format and print the system report to the console"""
     print(f"\n--- 🛡️  LIVE SYSTEM SCAN | {data['timestamp']} ---")
-    print(f"📈 CPU Load:    {data['cpu_load']}")
-    print(f"🧠 RAM Usage:   {data['ram_usage']} (Swap: {data['swap_usage']})")
-    print(f"💾 Free Disk:   {data['disk_free_gb']}")
-    print(f"🔝 Top Process: {data['top_app']}")
-    print(f"🌐 Network:     Sent: {data['net_sent']} | Recv: {data['net_recv']}")
+    print(f" CPU Load:    {data['cpu_load']}")
+    print(f" RAM Usage:   {data['ram_usage']} (Swap: {data['swap_usage']})")
+    print(f" Free Disk:   {data['disk_free_gb']}")
+    print(f" Top Process: {data['top_app']}")
+    print(f" Network:     Sent: {data['net_sent']} | Recv: {data['net_recv']}")
     print("-" * 50)
 
 if __name__ == "__main__":
