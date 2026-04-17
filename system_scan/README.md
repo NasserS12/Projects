@@ -10,6 +10,6 @@ A lightweight Python-based utility to monitor system performance in real-time. T
 - **No-Emoji/Professional UI:** Clean terminal output suitable for server environments.
 
 ## Prerequisites
-This script requires the `psutil` library. You can install it via pip:
+This script requires the `psutil` library. You can install it via pip3:
 ```bash
-pip install psutil
+pip3 install psutil
